@@ -1,9 +1,73 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" version="26.0.16">
   <diagram name="Page-1" id="mJZ77rq5nChWB3HlRugS">
-    <mxGraphModel>
+    <mxGraphModel dx="1072" dy="487" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ACgUm7VsPCBDoIsuAHQS-1" target="ACgUm7VsPCBDoIsuAHQS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-1" value="TMP36" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-333" y="301" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ACgUm7VsPCBDoIsuAHQS-2" target="ACgUm7VsPCBDoIsuAHQS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-2" value="Read Voltage" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-214" y="289.5" width="60" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACgUm7VsPCBDoIsuAHQS-3" target="ACgUm7VsPCBDoIsuAHQS-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-3" value="Convert voltage to 0-5 range" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-95" y="261.5" width="60" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ACgUm7VsPCBDoIsuAHQS-8" target="ACgUm7VsPCBDoIsuAHQS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-14" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ACgUm7VsPCBDoIsuAHQS-8" target="ACgUm7VsPCBDoIsuAHQS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-15" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ACgUm7VsPCBDoIsuAHQS-21" target="ACgUm7VsPCBDoIsuAHQS-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="262.20000000000005" y="505.79999999999995" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="256" y="398" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ACgUm7VsPCBDoIsuAHQS-8" target="ACgUm7VsPCBDoIsuAHQS-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-8" value="Check if &amp;nbsp;temperature is normal, low fever, or high fever" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="137" y="261.5" width="78" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-10" value="Yellow LED" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="297" y="261.5" width="60" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-11" value="Red LED" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="297" y="152.5" width="60" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-12" value="Green LED" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="297" y="370.5" width="60" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-16" value="0-1023" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="278" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ACgUm7VsPCBDoIsuAHQS-18" target="ACgUm7VsPCBDoIsuAHQS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-18" value="Convert voltage to temperature in Celsius" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="34" y="261.5" width="77" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-21" value="Turn on LED" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="225" y="301" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgUm7VsPCBDoIsuAHQS-26" value="Save data" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="146" y="403" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
